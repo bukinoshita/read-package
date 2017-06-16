@@ -20,12 +20,12 @@ $ npm install --save read-package
 ```
 
 ```js
-const readPackage = require('read-package');
+const readPackage = require('read-package')
 
-readPackage('foo');
+readPackage('foo').catch(err => err)
 //=> package.json not found in the current project.
 
-readPackage('bar');
+readPackage('bar').then(package => package)
 //=> { "name": "fixture", "version": "1.0.0" }
 ```
 
