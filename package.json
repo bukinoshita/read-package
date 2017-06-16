@@ -1,0 +1,27 @@
+{
+  "name": "read-package",
+  "version": "0.0.0",
+  "description": "Reads package.json in the working directory",
+  "main": "index.js",
+  "repository": "https://github.com/bukinoshita/read-package.git",
+  "author": "Bu Kinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "dependencies": {
+    "has-package": "^0.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "space": true,
+    "semicolon": false,
+    "esnext": true,
+    "rules": {
+      "prefer-promise-reject-errors": 0
+    }
+  }
+}
