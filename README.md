@@ -1,5 +1,3 @@
-# read-package
-
 # read-package [![Build Status](https://travis-ci.org/bukinoshita/read-package.svg?branch=master)](https://travis-ci.org/bukinoshita/read-package)
 
 > Reads [package.json](https://docs.npmjs.com/files/package.json) in the working directory.
