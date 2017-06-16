@@ -1,6 +1,6 @@
 {
   "name": "read-package",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Reads package.json in the working directory",
   "main": "index.js",
   "repository": "https://github.com/bukinoshita/read-package.git",
