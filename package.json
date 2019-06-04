@@ -10,7 +10,7 @@
     "test": "xo && ava"
   },
   "dependencies": {
-    "has-package": "^0.0.1"
+    "has-package": "^0.0.2"
   },
   "devDependencies": {
     "ava": "0.19.1",
