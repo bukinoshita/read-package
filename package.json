@@ -2,26 +2,38 @@
   "name": "read-package",
   "version": "0.0.1",
   "description": "Reads package.json in the working directory",
-  "main": "index.js",
-  "repository": "https://github.com/bukinoshita/read-package.git",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "bukinoshita/read-package",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "npm",
+    "package",
+    "package.json",
+    "read",
+    "json"
+  ],
   "scripts": {
-    "test": "xo && ava"
+    "build": "tsc",
+    "prepublish": "yarn build",
+    "test": "jest --config=jest.config.json"
   },
   "dependencies": {
-    "has-package": "^0.0.2"
+    "has-package": "1.0.2"
   },
   "devDependencies": {
-    "ava": "2.3.0",
-    "xo": "0.25.3"
-  },
-  "xo": {
-    "space": true,
-    "semicolon": false,
-    "esnext": true,
-    "rules": {
-      "prefer-promise-reject-errors": 0
-    }
+    "@sindresorhus/tsconfig": "0.7.0",
+    "@types/jest": "24.0.25",
+    "@types/node": "13.1.2",
+    "jest": "24.9.0",
+    "ts-jest": "24.2.0",
+    "typescript": "3.7.4"
   }
 }

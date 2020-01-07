@@ -5,9 +5,8 @@
 ## Install
 
 ```
-$ npm install --save read-package
+$ yarn add read-package
 ```
-
 
 ## Usage
 
@@ -22,19 +21,18 @@ $ npm install --save read-package
 ```js
 const readPackage = require('read-package')
 
-readPackage('foo').catch(err => err)
+readPackage('foo')
 //=> package.json not found in the current project.
 
-readPackage('bar').then(package => package)
+readPackage('bar')
 //=> { "name": "fixture", "version": "1.0.0" }
 ```
-
 
 ## API
 
 ### readPackage([cwd])
 
-Returns a `promise`.
+Returns an `object` or `throws an error`.
 
 #### cwd
 
@@ -43,10 +41,9 @@ Default: `process.cwd()`
 
 Current working directory.
 
-
 ## Related
-- [has-package](https://github.com/bukinoshita/has-package) — Check if a project has package.json
 
+- [has-package](https://github.com/bukinoshita/has-package) — Check if a project has package.json
 
 ## License
 
