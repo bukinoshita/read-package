@@ -1582,10 +1582,10 @@ has-flag@^4.0.0:
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
 
-has-package@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/has-package/-/has-package-1.0.2.tgz#486ab5b4c8e9e391e1f16e0398f30eedfc0957d8"
-  integrity sha512-dCAlJmzIuai/zBH0VIlxZdsC4ihOIamZHUACOynEFbW1yTNG1eXmZdm4PL9Ubrk8BZZe3dt0g8fw6nkt4L+hqA==
+has-package@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/has-package/-/has-package-1.0.3.tgz#56e038319118d92a9af9adb3cbcf0a9fba605ec7"
+  integrity sha512-lGq8NUBK/WZoKJ3vRGsO7n93kPiFcjxg9bXPR9a20jkFArzfTYVs+30BiVFkXP+AxwSOqPU+AV6q1FmylgbDRg==
 
 has-value@^0.3.1:
   version "0.3.1"
