@@ -1619,10 +1619,10 @@ has-flag@^4.0.0:
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
 
-has-package@1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/has-package/-/has-package-1.0.5.tgz#916c734fc17df0fd14bc52ad49d78979ad381191"
-  integrity sha512-8zC0oFgx7srGNVrXFJaxt70Mo96/VMf1NgHu0gPjOBysHwWc1cQj40AnIt65/ZCNQYQoFITt2IfbvJ27S8EPzA==
+has-package@1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/has-package/-/has-package-1.0.6.tgz#aac16d6a9eb16c37d0d11d6e2ba75942a0a9405a"
+  integrity sha512-5YAz3bG8L/mk0w+G9NzF2AS202DLAFLLglfXYf/gIGAffSErJhjNSroCmkGr9INY37dAspqxKjJ13G4AKOZuCQ==
 
 has-value@^0.3.1:
   version "0.3.1"
